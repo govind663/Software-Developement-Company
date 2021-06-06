@@ -7,9 +7,10 @@ $server_name = "remotemysql.com";
 $db_username = " jJINFaqynM";
 $db_password = "M8zPf37EvR";
 $db_name = "jJINFaqynM";
+$db_port = "3306";
 
 // Remote Ddatabase Connection
-$con = mysqli_connect($server_name,$db_username,$db_password,$db_name);
+$con = mysqli_connect($server_name,$db_username,$db_password,$db_name,$db_port);
 
 
 $sql = "SELECT * FROM files";
