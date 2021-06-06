@@ -1,6 +1,10 @@
 <?php
 // connect to the database
-$conn = mysqli_connect('localhost', 'root', '', 'db_contact');
+//$conn = mysqli_connect('localhost', 'root', '', 'db_contact');
+
+// Production Ddatabase Connection
+$con = mysqli_connect($server_name,$db_username,$db_password,$db_name);
+
 
 $sql = "SELECT * FROM files";
 $result = mysqli_query($conn, $sql);
