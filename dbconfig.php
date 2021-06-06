@@ -12,8 +12,9 @@ $server_name = "remotemysql.com";
 $db_username = " jJINFaqynM";
 $db_password = "M8zPf37EvR";
 $db_name = "jJINFaqynM";
+$db_port = "3306";
 
-$connection = mysqli_connect($server_name,$db_username,$db_password,$db_name);
+$connection = mysqli_connect($server_name,$db_username,$db_password,$db_name,$db_port);
 
 if(!$connection)
 {
