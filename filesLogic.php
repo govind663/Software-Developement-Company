@@ -1,7 +1,7 @@
 <?php
 
 
-// connect to the database
+// Localhost Database connection
 $conn = mysqli_connect('localhost', 'root', '', 'db_contact');
 
 // Remote Database Connection
