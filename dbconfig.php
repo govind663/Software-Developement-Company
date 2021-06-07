@@ -1,7 +1,7 @@
 <?php
 
  
-// Developement Database Connection
+// Localhost Database Connection
 $server_name = "localhost";
 $db_username = "root";
 $db_password = "";
