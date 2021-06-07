@@ -2,19 +2,19 @@
 
  
 // Developement Database Connection
-// $server_name = "localhost";
-// $db_username = "root";
-// $db_password = "";
-// $db_name = "db_contact";
+$server_name = "localhost";
+$db_username = "root";
+$db_password = "";
+$db_name = "db_contact";
 
 // Remote Database Connection
-$server_name = "remotemysql.com";
-$db_username = " jJINFaqynM";
-$db_password = "M8zPf37EvR";
-$db_name = "jJINFaqynM";
-$db_port = "3306";
+// $server_name = "remotemysql.com";
+// $db_username = " jJINFaqynM";
+// $db_password = "M8zPf37EvR";
+// $db_name = "jJINFaqynM";
+// $db_port = "3306";
 
-$connection = mysqli_connect($server_name,$db_username,$db_password,$db_name,$db_port);
+$connection = mysqli_connect($server_name,$db_username,$db_password,$db_name);
 
 if(!$connection)
 {
